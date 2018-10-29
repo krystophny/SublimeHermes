@@ -261,7 +261,7 @@ class KernelConnection(object):
         self.id2region = {}
         self._connection_name = connection_name
         self._execution_state = 'unknown'
-        self._init_receivers()
+        #self._init_receivers()
 
     def __del__(self):
         self._shell_msg_receiver.shutdown()
